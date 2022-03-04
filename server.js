@@ -10,7 +10,7 @@ app.use(express.static("public"));
 
 app.get("/",function(req,res){
 
-res.render("home");
+res.render("station");
 });
 
 app.listen(process.env.PORT || 3000,function(){
