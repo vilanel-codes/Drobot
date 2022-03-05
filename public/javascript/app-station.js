@@ -29,7 +29,7 @@ function renderTag(doc) {
 
 
     //ADDING ELEMENTS TO ROW
-    
+
     row.appendChild(station);
     row.appendChild(createdBy);
     row.appendChild(distance);
@@ -186,7 +186,9 @@ function epilol(){
     });
 
 }
-
+function nothing(){
+    location.reload();
+}
 
 
 db.collection('tag').get().then((snapshots) => {
